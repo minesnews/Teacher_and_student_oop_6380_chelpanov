@@ -16,7 +16,5 @@ public class Teacher extends User {
         System.out.println(getUsername() + " " + getLastname());
     }
 
-    public void addGroupId(int id){//обязательно убрать в сервис (ошибка проектирования)
-        groups.add(id);
-    }
+    
 }
